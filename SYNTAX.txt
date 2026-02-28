@@ -1,0 +1,9 @@
+SYNTAX:
+
+SELECT   * / [DISTINCT] Column_Name / Expression [ALIAS]
+FROM  Table_Name ; 
+
+Order of execution:
+---------------------------
+1-FROM 
+2-SELECT 
