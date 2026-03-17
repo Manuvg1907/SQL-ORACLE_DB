@@ -213,10 +213,21 @@ from emp;
 
 8.WAQTD TOTAL SALARY GIVEN TO EACH EMPLOYEE (SAL+COMM).
 
+select sal+comm "total sal"
+from emp;
 
 
 9.WAQTD DETAILS OF ALL THE EMPLOYEES ALONG WITH ANNUAL SALARY.
+
+
+select emp.*,sal*12
+from emp;
+
 10.WAQTD NAME AND DESIGNATION ALONG WITH 100 PENALTY IN SALARY.
+
+select ename,job ,sal-100
+from emp;
+
 
 
 
