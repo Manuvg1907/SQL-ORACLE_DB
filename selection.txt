@@ -1,1 +1,11 @@
-m
+SYNTAX:
+
+SELECT   * /  [DISTINCT] COLUMN_NAME /  EXPRESSION  [ALIAS]
+FROM   TABLE_NAME 
+WHERE   <filter_condition> ;
+
+order of execution:
+-------------------------
+1-FROM 
+2-WHERE 
+3-SELECT 
