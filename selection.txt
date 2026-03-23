@@ -19,3 +19,10 @@ waqtd name of the employee whose sal is more 1500 ?
 select ename
 from emp 
 where sal >1500;
+
+
+waqtd name of the employee whose  annual sal is more 20000 ?
+
+select ename
+from emp 
+where sal*12 >20000
