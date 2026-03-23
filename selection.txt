@@ -26,3 +26,10 @@ waqtd name of the employee whose  annual sal is more 20000 ?
 select ename
 from emp 
 where sal*12 >20000
+
+
+waqtd all the details of the employee who are working in department number 10?
+
+select *
+from emp 
+where deptno = 10;
