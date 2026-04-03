@@ -164,3 +164,13 @@ WHERE JOB='ANALYST';
 SELECT *
 FROM EMP
 WHERE SAL>2000;
+
+
+
+
+15.WAQTD emp name sal OF EMPS EARNING MORE THAN 300 RUPEES comm
+
+select ename,sal
+from emp
+where comm>300;
+
