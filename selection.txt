@@ -174,3 +174,10 @@ select ename,sal
 from emp
 where comm>300;
 
+
+15.WAQTD DETAILS OF EMPS EARNING less THAN  annual sal 20000 RUPEES 
+
+
+select *
+from emp
+where  sal*12<20000;
