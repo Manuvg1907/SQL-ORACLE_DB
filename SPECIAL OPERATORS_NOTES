@@ -1,0 +1,48 @@
+
+SPECIAL OPERATORS:
+----------------------------------
+1.IN:
+-------
+    column_name/expression  IN ( v1,v2,...Vn) ; 
+
+2.NOT IN:
+---------------
+    column_name/expression NOT  IN ( v1,v2,...Vn) ; 
+
+3.BETWEEN :
+-----------
+  column_name/expression BETWEEN lower_range AND higher_range; 
+
+4.NOT BETWEEN :
+---------------
+  column_name/expression NOT BETWEEN lower_range AND higher_range; 
+
+5.IS :
+-------
+ column_name/expression IS NULL ;
+
+ 6.IS NOT :
+--------------
+ column_name/expression IS NOT NULL ;
+
+7.LIKE:
+-----------
+column_name/expression  LIKE   'pattern_to_match' ;
+
+8.NOT LIKE:
+-----------
+column_name/expression  NOT  LIKE   'pattern_to_match' ;
+
+ESCAPE CHARACTER
+-----------
+column_name/expression  LIKE/NOT LIKE   'pattern_to_match' ESCAPE 'char'  ;
+
+
+
+
+
+
+
+
+
+
