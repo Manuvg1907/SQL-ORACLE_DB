@@ -191,3 +191,9 @@ group by sal, deptno, ename;
 
 15.WAQTD NUMBER OF EMPLOYEES GETTING THE SAME SALARY IN THE SAME DEPARTMENT AND HIRED ON THE SAME DAY .
 
+select count(*),sal,deptno, hiredate 
+from emp 
+group by sal, deptno,, hiredate;
+
+
+
