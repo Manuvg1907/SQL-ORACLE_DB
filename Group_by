@@ -180,7 +180,9 @@ group by ename,deptno
 
 14.WAQTD NUMBER OF EMPLOYEES GETTING THE SAME SALARY IN THE SAME DEPARTMENT AND HAVING THE SAME NAME .
 
-
+Select count(*),sal, deptno,ename
+from emp 
+group by sal, deptno, ename;
 
 
 
