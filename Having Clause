@@ -47,6 +47,10 @@ having count(*)>=2;
 
 2.WAQTD DNO AND TOTAL SAALARY NEEDED TO PAY ALL EMP IN EACH DEPT IF THERE ARE
 
+select deptno,sum(sal)
+from emp
+group by deptno
+
 
 
 
