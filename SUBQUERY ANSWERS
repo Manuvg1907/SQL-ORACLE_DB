@@ -30,4 +30,8 @@ where sal <(select sal from emp where ename='KING');
 3.WAQTD NAME AND DEPTNO OF THE EMPLOYEES IF THEY ARE WORKING IN THE SAME DEPT AS JONES 
 
 
-select ename
+select ename,deptno
+from emp
+where deptno= (select deptno 
+               from emp
+              where ename='JONES');
