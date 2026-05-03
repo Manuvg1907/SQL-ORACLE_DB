@@ -21,7 +21,7 @@ where sal>(select sal
 
 select name,sal
 from emp
-where sal
+where sal <(select sal from emp where ename='KING');
 
 
 
