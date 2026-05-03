@@ -19,7 +19,7 @@ where sal>(select sal
 2.WAQTD NAME AND SALARY OF THE EMPLOYEES EARNING LESS THAN KING 
 
 
-select name,sal
+select ename,sal
 from emp
 where sal <(select sal from emp where ename='KING');
 
@@ -28,3 +28,6 @@ where sal <(select sal from emp where ename='KING');
 
 
 3.WAQTD NAME AND DEPTNO OF THE EMPLOYEES IF THEY ARE WORKING IN THE SAME DEPT AS JONES 
+
+
+select ename
