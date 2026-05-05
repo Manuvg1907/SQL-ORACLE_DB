@@ -44,7 +44,9 @@ where deptno= (select deptno
 
 select ename,job
 from emp
-where 
+where job=(select job
+from emp
+where ename='JAMES';
 
 
 
