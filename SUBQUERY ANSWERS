@@ -54,6 +54,10 @@ where ename='JAMES';
 5.WAQTD EMPNO AND ENAME ALONG WITH ANNUAL SALARY OF ALL THE EMPLOYEES IF THEIR ANNUAL SALARY IS GREATER THAN WARDS ANNUAL SALARY.
 
 select empno,ename,sal*12
+from emp
+where sal*12 >(select sal*12
+from emp
+where ename='WARD');
 
 
 
