@@ -87,7 +87,7 @@ select ename, sal
 from emp 
 where sal <(select sal 
                  from emp
-                 where empno='PRESIDENT');
+                 where empno=7839);
 
 
 
