@@ -85,7 +85,7 @@ where hiredate>(select hiredate
 
 select ename, sal 
 from emp 
-where sal <(select hiredate 
+where sal <(select sal 
                  from emp
                  where ename='PRESIDENT');
 
