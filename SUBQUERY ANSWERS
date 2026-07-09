@@ -104,7 +104,7 @@ select *
 from emp
 where hiredate <(select hiredate 
                  from emp
-                  wher
+                  where ename
 
 
 
