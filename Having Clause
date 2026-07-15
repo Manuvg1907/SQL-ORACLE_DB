@@ -54,5 +54,14 @@ having count(*)>=4;
 
 
 
+3.WAQTD NUMBER OF EMP EARNING SAL MORE THAN 1200 IN EACH JOB 
+AND THE TOTAL SAL NEEDED TO PAY EMP OF EACH JOB MUST EXCEES 3800
+
+select deptno,sum(sal)
+from emp
+where sal>1200
+group by job
+having count(*)>=4;
+
 
 
