@@ -61,7 +61,7 @@ select count(*),job
 from emp
 where sal>1200
 group by job 
-having sum(sal)>=4;
+having sum(sal)>3800;
 
 
 
