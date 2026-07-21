@@ -64,4 +64,12 @@ group by job
 having sum(sal)>3800;
 
 
+4.WAQTD DEPTNO AND NUMBER OF EMP WORKING ONLY IF THERE ARE 2 EMP WORKING IN EACH DEPT AS MANAGER .
+
+select deptno,count(*)
+from emp
+where job='MANAGER'
+group by deptno
+having count(*)>2;
+
 
