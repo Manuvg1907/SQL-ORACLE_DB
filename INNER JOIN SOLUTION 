@@ -8,7 +8,10 @@ on e.depno=d.deptno
 
 2.WAQTD DNAME AND SALARY FOR ALL THE EMPLOYEE WORKING IN ACCOUNTING.
 
-
+select d.dname,e.sal
+from emp e inner join dept d
+on e.deptno=d.deptno
+where d.loc='ACCOUNTING';
 
 
 
