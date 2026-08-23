@@ -181,3 +181,13 @@ where comm>300;
 select *
 from emp
 where  sal*12<20000;
+
+
+
+
+16.WAQTD DETAILS OF EMPS EARNING less THAN 200 bonus
+
+
+select *
+from emp
+where  bonus<200;
