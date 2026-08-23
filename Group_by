@@ -9,7 +9,7 @@ SYNTAX:
 
  ORDER OF EXECUTION:
 --------------------------------------
-1-FROM 
+1-FROM  
 2-WHERE(if used)  [ROW-BY-ROW]
 3-GROUP BY        [ROW-BY-ROW]
 4-SELECT          [GROUP-BY-GROUP]
