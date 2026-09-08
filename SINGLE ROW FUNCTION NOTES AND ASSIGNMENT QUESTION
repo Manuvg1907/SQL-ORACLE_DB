@@ -229,6 +229,8 @@ If the same rank is avaliableRank function it will creates gap or skips the rank
 Dense_Rank function is used to Assigns a rank to each row.
 If the same rank is available Dense_Rank function it will not creates gaps or skips the ranks
 
+it won't skip the ranks 
+
 
 SYNTAX: DENSE_RANK() OVER ( [PARTITION BY COL_NAME/EXP ]
                                ORDER BY COL_NAME [ASC]/DESC)
@@ -404,5 +406,8 @@ I converted your full notes  into a **standard comparison table** 👇
 * Oracle → TO_CHAR
 * MySQL → DATE_FORMAT
 * PostgreSQL → TO_CHAR
+
+
+
 
 
