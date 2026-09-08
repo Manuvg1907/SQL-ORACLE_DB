@@ -281,7 +281,7 @@ I converted your full notes  into a **standard comparison table** 👇
 ## 🧵 STRING FUNCTIONS
 
 | Oracle Function | Syntax               | MySQL Function       | Syntax                 | PostgreSQL Function | Syntax                          |
-| --------------- | -------------------- | -------------------- | ---------------------- | ------------------- | ------------------------------- |
+| --------------- | -------------------- | -------------------- | ---------------------- | ------------------- |  ------------------------------- |
 | LENGTH          | LENGTH(str)          | LENGTH / CHAR_LENGTH | LENGTH(str)            | LENGTH              | LENGTH(str)                     |
 | CONCAT          | CONCAT(a,b) / a || b | CONCAT               | CONCAT(a,b)            | CONCAT / ||         | CONCAT(a,b)                     |
 | UPPER           | UPPER(str)           | UPPER                | UPPER(str)             | UPPER               | UPPER(str)                      |
